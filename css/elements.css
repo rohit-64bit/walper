@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.circle {
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    border-bottom-right-radius: 80%;
+    width: 350px;
+    border-bottom-left-radius: 20%;
+    border-top-right-radius: ;
+    position: sticky;
+    shape-outside: ;
+    border-top-right-radius: ;
+}
+
+.overlap {
+    position: absolute;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}

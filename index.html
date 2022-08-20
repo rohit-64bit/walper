@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/elements.css">
+    <title>wallper.com</title>
+</head>
+
+<body class="bg-gradient-to-r from-blue-400 to-blue-500">
+    <header class=" text-black flex justify-between">
+        <nav class="circle drop-shadow-2xl"></nav>
+        <nav class="overlap flex my-2">
+            <img src="https://cdn.logojoy.com/wp-content/uploads/2018/08/23161101/5-25.png" alt="logo" class="max-h-10 mx-4">
+            <p class="text-2xl font-bold align-middle">Wallper.com</p>
+        </nav>
+        <nav class="my-2">
+
+            <ul class="flex text-white">
+                <li class="mx-8 my-2 cursor-pointer hover:text-lg">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="mx-8 my-2 cursor-pointer hover:text-lg">
+                    <a href="#">WALLPAPERS</a>
+                </li>
+                <li class="mx-8 my-2 cursor-pointer hover:text-lg">
+                    <a href="#">MOBILE</a>
+                </li>
+                <li class="mx-8 my-2 cursor-pointer hover:text-lg">
+                    <a href="#">DESKTOP</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class=" bg-white h-10 w-64 rounded-full my-2 mr-4 flex border-2 justify-center drop-shadow-xl">
+            <input class="justify-between h-90% bg-transparent" type="text" placeholder="search" id="searchQuery">
+            <button class=" bg-white w-8  h-full justify-between" onclick="search()">
+                <img class="mx-2 hover:opacity-50 h-5" src="assets/search.svg" alt="search">
+                </button>
+        </nav>
+    </header>
+    <div id="content" class="bg-black h-max">
+        <a href=""><img src="" alt=""></a>
+        <a href=""><img src="" alt=""></a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
